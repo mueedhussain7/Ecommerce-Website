@@ -1,11 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navabar';
+import Main from './components/main';
+
 
 function App() {
   return (
-    <div className="App">
-     <h1>Ecommerce app.</h1>
-    </div>
+    <>   
+     <Navbar></Navbar>
+    <Main></Main>
+
+
+    </>
+
+
+
   );
 }
 
